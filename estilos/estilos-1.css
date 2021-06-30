@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../general/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navegador{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1.3px solid #ffff;
+}
+.indice{
+    margin: 0 30px;
+    font-size: 34px;
+}
+.enlace{
+    color: #ffff;
+}
+.contenedor-inicio{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+.contenedor-texto{
+    width: 55%;
+    text-align: center;
+    color: #ffff;
+}
+.texto-principal{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    border-bottom: 2.3px solid #ffff;
+}
+.contenedor-portada{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+    transition: transform .2s;
+}
+.contenedor-img{
+    width: 200px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.img-1{
+    background-image: url(../general/presentasion-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-2{
+    background-image: url(../general/presentasion-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-3{
+    background-image: url(../general/presentasion-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-4{
+    background-image: url(../general/presentasion-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contenedor-portada :hover{
+    transform: scale(1.1);
+}
